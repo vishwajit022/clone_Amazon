@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: vh;
+    background-color: #fcf0e9;
+
+
+
+}
+
+.home__image{
+
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: vh;
+    z-index: -1;/*THis will bring below image overlay behavior*/
+  
+    margin-bottom: -100px;
+   
+  
+}
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+
+}
+.last__row{
+    width: vh;
+    justify-content: center;
+
+
+}
