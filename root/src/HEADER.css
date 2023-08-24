@@ -5,6 +5,9 @@
     position:sticky;
     background-color: rgb(2, 1, 4);
     color: white;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
 
 }
 .header__name{
@@ -71,3 +74,9 @@
 
 }
 
+
+.nav__cartCount{
+    font-size: large;
+    font-weight: 600;
+    
+}
